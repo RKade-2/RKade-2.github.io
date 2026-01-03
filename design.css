@@ -6,10 +6,10 @@ body {
 a {
   display: inline-block;
   padding: 10px 16px;
-  background-color: #007aff;
+  background-color: #5900ff;
   color: white;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 9999px;
   font-weight: 500;
 }
 
