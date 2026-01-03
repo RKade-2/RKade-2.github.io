@@ -15,10 +15,10 @@ a:not(:has(img)) {
   font-weight: 500;
 }
 a:hover {
-  transform: scale(1.50);
+  transform: scale(1.10);
 }
 
 a:active {
-  transform: scale(0.50);
+  transform: scale(0.90);
 }
 
