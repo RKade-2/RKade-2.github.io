@@ -12,4 +12,11 @@ a {
   border-radius: 9999px;
   font-weight: 500;
 }
+a:hover {
+  background-color: #005fcc;
+}
+
+a:active {
+  transform: scale(0.96);
+}
 
