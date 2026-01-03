@@ -2,6 +2,9 @@ body {
   background-color: #090021;
   color: #f2f0ff;           /* default text color */
   font-family: Roboto
+  margin: 0;
+  padding: 20px;
+}
 }
 a {
   display: inline-block;
