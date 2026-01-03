@@ -2,4 +2,28 @@ body {
   background-color: #090021;
   color: #f2f0ff;           /* default text color */
   font-family: Roboto
+  .tooltip {
+  position: relative;
+  text-decoration: none;
 }
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+}
+
